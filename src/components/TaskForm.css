@@ -1,0 +1,130 @@
+.header-con {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 4rem;
+}
+
+.app-header {
+	border-bottom: 1px solid var(--border-clr);
+	margin-bottom: 2rem;
+}
+
+.app-header form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 800px;
+	width: 100%;
+	margin-inline: auto;
+}
+
+.task-input {
+	font-size: 1.25rem;
+	border: 1px solid var(--border-clr);
+	padding-inline: 0.5rem;
+	margin-bottom: 1.25rem;
+	width: 100%;
+}
+
+.task-input::placeholder {
+	color: var(--placeholder-text-clr);
+}
+
+.task-input,
+.task-status {
+	background-color: var(--primary-bg-clr);
+	color: var(--primary-text-clr);
+	height: 2.25rem;
+	border-radius: var(--border-radius-s);
+}
+
+.task-status {
+	padding-inline: 0.5rem 1.8rem;
+	border: 1px solid var(--border-clr);
+	cursor: pointer;
+}
+
+.custom-select {
+	position: relative;
+}
+
+.custom-arrow {
+	background-color: var(--submit-btn-clr);
+	display: block;
+	height: 100%;
+	width: 34px;
+	border-radius: 0 4px 4px 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid var(--border-clr);
+	pointer-events: none;
+}
+
+.custom-arrow::after {
+	content: "";
+	position: absolute;
+	top: 14px;
+	right: 9px;
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-color: var(--select-arrow-clr) transparent transparent transparent;
+}
+
+.custom-select select:open + .custom-arrow::after {
+	border-color: transparent transparent var(--select-arrow-clr) transparent;
+	top: 7px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 1.3rem;
+}
+
+.toggle-btn {
+	background-color: transparent;
+	border: none;
+}
+
+.dark-icon {
+	filter: contrast(0);
+}
+
+.task-submit {
+	background-color: var(--submit-btn-clr);
+	color: var(--primary-text-clr);
+	border: 1px solid var(--border-clr);
+	height: 2.25rem;
+	padding-inline: 1rem;
+	transition: all 0.3s;
+	border-radius: var(--border-radius-s);
+}
+
+.task-submit::before {
+	content: "+";
+	padding-right: 0.4rem;
+}
+
+.task-submit:hover {
+	background-color: var(--h-submit-btn-clr);
+}
+
+.task-form-details {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.select-and-submit-btn {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.tag-buttons {
+	display: flex;
+	gap: 0.5rem;
+}

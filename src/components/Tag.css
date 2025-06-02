@@ -1,0 +1,36 @@
+.tag {
+	padding: 0.3rem 0.5rem;
+	border-radius: var(--border-radius-s);
+	border: 1px solid var(--border-clr);
+	background-color: var(--submit-btn-clr);
+	color: var(--primary-text-clr);
+	transition: all 0.3s;
+}
+
+.tag:hover {
+	background-color: var(--h-submit-btn-clr);
+}
+
+#HTML {
+	background-color: var(--HTML-clr);
+	border: 1px solid var(--HTML-clr);
+}
+
+#CSS {
+	background-color: var(--CSS-clr);
+	border: 1px solid var(--CSS-clr);
+}
+
+#JavaScript {
+	background-color: var(--JavaScript-clr);
+	border: 1px solid var(--JavaScript-clr);
+}
+
+#React {
+	background-color: var(--React-clr);
+	border: 1px solid var(--React-clr);
+}
+
+#default {
+	background-color: var(--submit-btn-clr);
+}

@@ -1,0 +1,14 @@
+.task-column {
+	flex-basis: 450px;
+}
+
+.task-column-title {
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.task-column-title > img {
+	width: 30px;
+}
