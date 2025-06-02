@@ -1,12 +1,20 @@
-# React + Vite
+# Task List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creating a Task List for Web Developers project in React
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add Task Item
+- Display Task List
+- Select the status of your task
+- Select Tag/s of the Task Item
+- Delete Task Item
+- Persist Data
+- Dark Mode and Light Mode Theme
 
-## Expanding the ESLint configuration
+![image](https://github.com/user-attachments/assets/f3fc33ee-91c3-4d9f-94c5-31d73f2af8d5)
+![image](https://github.com/user-attachments/assets/90b627a3-ded1-47d3-a320-91299da5f37f)
+![image](https://github.com/user-attachments/assets/153d1239-0eb0-4e7a-b64c-89ca1d31752e)
+![image](https://github.com/user-attachments/assets/b7f76033-71cc-4426-846a-b4a2131e5dfd)
+![image](https://github.com/user-attachments/assets/6e73dc95-bf8c-47e8-aa60-29c72e0e40cc)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
